@@ -1,0 +1,27 @@
+{
+  "name": "teste-rabbitmq",
+  "version": "1.0.0",
+  "description": "## Como iniciar o RabbitMQ [(download)](https://www.rabbitmq.com/download.html)",
+  "main": "index.js",
+  "scripts": {
+    "sender": "node send.js",
+    "receiver": "node receive.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateusalxd/teste-rabbitmq.git"
+  },
+  "keywords": [
+    "message broker",
+    "rabbitmq"
+  ],
+  "author": "Mateus Alexandre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mateusalxd/teste-rabbitmq/issues"
+  },
+  "homepage": "https://github.com/mateusalxd/teste-rabbitmq#readme",
+  "dependencies": {
+    "amqplib": "^0.6.0"
+  }
+}
